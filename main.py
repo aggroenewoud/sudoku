@@ -1,16 +1,13 @@
-# This is a sample Python script.
+import sudoku as S
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+S.sudoku([
+    ['4', '', '', '', '3', '8', '', '', ''],
+    ['2', '', '8', '5', '', '', '', '', ''],
+    ['7', '5', '3', '', '', '1', '2', '8', '4'],
+    ['', '', '', '9', '2', '4', '7', '6', ''],
+    ['', '6', '', '', '7', '', '4', '', '5'],
+    ['3', '7', '4', '', '', '', '9', '', ''],
+    ['5', '3', '', '4', '', '9', '', '', '2'],
+    ['', '4', '9', '', '5', '2', '', '3', ''],
+    ['', '2', '', '', '', '', '5', '', ''],
+])
